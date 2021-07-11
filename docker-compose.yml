@@ -1,0 +1,10 @@
+version: "3"
+
+services: 
+  lakeeee:
+    image: hexo:build
+    container_name: lakeeee
+    ports: 
+      - 4000:4000
+    volumes: 
+      - ./lakeeee/:/home/hexo/.hexo/
