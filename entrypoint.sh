@@ -1,8 +1,5 @@
 #! /bin/sh
 
-cd /home/hexo/.hexo
-hexo --help
-
 hexo_dir=/home/hexo/.hexo
 cd $hexo_dir
 
