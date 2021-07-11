@@ -55,4 +55,18 @@ $ docker exec -it lakeeee hexo new "My first post"
 ```
 
 Open the file and write something,
-![my-first-post](images/my-first-blog.png)
+![my-first-post](https://github.com/zhaoyanz405/hexo-box/blob/master/images/my-first-post.png)
+![my-first-post-content](https://github.com/zhaoyanz405/hexo-box/blob/master/images/my-first-post-content.png)
+
+## 6. Build the blog
+
+Restart the hexo-box, the blog will be built automatically. 
+
+```bash
+$ docker compose restart
+```
+
+## 7. View the blog
+
+The hexo-box will start the blog server in http://localhost:4000 as default, type the URL in browser,
+![blog](https://github.com/zhaoyanz405/hexo-box/blob/master/images/hexo-blog.png)
