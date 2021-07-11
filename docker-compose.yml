@@ -1,8 +1,8 @@
 version: "3"
 
 services: 
-  lakeeee:
-    image: hexo:build
+  hexo-box:
+    image: zhaoyanzzzz/hexo-box:latest
     container_name: lakeeee
     ports: 
       - 4000:4000
