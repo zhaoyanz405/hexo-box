@@ -45,3 +45,14 @@ $ docker compose up -d
 ```
 
 If there are somthings showed in the port, congratulations，you have built sucessfully.
+
+## 5. Write your first blog
+
+Run `hexo new <post name>` in your container, for example,
+
+```bash
+$ docker exec -it lakeeee hexo new "My first post"
+```
+
+Open the file and write something,
+![my-first-post](images/my-first-blog.png)
