@@ -34,7 +34,7 @@ services:
     volumes: 
       - {your blog directory}:/home/hexo/.hexo/
 ```
-See example in here.
+See example in [here](https://github.com/zhaoyanz405/hexo-box/blob/master/docker-compose.yml).
 
 ## 4. Init your hexo blog
 
@@ -43,3 +43,5 @@ Start the box by docker compose, the blog will be inited to your directory metio
 ```bash
 $ docker compose up -d
 ```
+
+If there are somthings showed in the port, congratulations，you have built sucessfully.
