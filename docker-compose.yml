@@ -2,6 +2,7 @@ version: "3"
 
 services: 
   hexo-box:
+    user: root
     image: zhaoyanzzzz/hexo-box:latest
     container_name: lakeeee
     ports: 
