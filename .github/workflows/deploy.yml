@@ -11,4 +11,4 @@ jobs:
     steps:
     - name: call api
       run:
-        curl http://$host/docker/lakeeee
+        curl http://${{ secrets.HOST }}/docker/lakeeee
