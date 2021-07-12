@@ -1,0 +1,14 @@
+name: deploy
+on: 
+  push:
+    branches:
+      - master
+
+jobs:
+  restart-lakeeee:
+    name: job-restart-lakeeee
+    runs-on: ubuntu-latest
+    steps:
+    - name: call api
+      run:
+        curl http://$host/docker/lakeeee
