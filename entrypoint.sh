@@ -1,5 +1,7 @@
 #! /bin/sh
 
+npm config set registry https://artifactory.ubisoft.org/api/npm/npm/
+
 hexo_dir=/home/hexo/.hexo
 cd $hexo_dir
 
