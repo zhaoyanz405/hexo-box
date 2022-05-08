@@ -42,6 +42,18 @@ Start the box by docker compose, the blog will be inited to your directory metio
 
 ```bash
 $ docker compose up -d
+[+] Running 7/7
+ - hexo-box Pulled                                                        11.4s
+   - c9b1b535fdd9 Already exists                                           0.0s
+   - 564077a25a7d Already exists                                           0.0s
+   - 3585c3c13ec9 Already exists                                           0.0s
+   - b46cf7463875 Already exists                                           0.0s
+   - cdc7cb609ecb Already exists                                           0.0s
+   - e381bf82599b Pull complete                                            3.4s
+[+] Running 2/2
+ - Network hexo-box_default  Created                                       0.1s
+ - Container lakeeee         Started                                       3.9s
+
 ```
 
 If there are somthings showed in the port, congratulations，you have built sucessfully.
